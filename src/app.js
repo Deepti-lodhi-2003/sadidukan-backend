@@ -16,9 +16,7 @@ const cookieParser = require("cookie-parser");
 app.use(morgan("tiny")); 
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://forntend-oygr.vercel.app',
-  'https://frontend-one-blond-99.vercel.app',
-  'https://www.aviyuktngo.org',
+  'https://saadidukan-frontend.vercel.app/'
 ];
 
 app.use(cors({

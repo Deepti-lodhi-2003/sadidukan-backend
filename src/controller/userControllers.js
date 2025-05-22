@@ -122,7 +122,7 @@ const verifyOtp = async (req, res) => {
 
 // User Login ✅
   const userLogin = async (req, res) => {
-    const { email, password } = req.body;
+    const { email, password } = req.body;   
 
     try {
       const userExists = await userModel.findOne({ email });
